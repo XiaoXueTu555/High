@@ -17,6 +17,7 @@ int main()
 	cout << "正在计算根号2（精确小数点100位）..." << endl;
 	result = sqrt(result);
 	cout << "结果：" << result << endl;
+	cout << "小数位数: " << result.Decimals().Data().size() + result.Decimals_leading_zero() << endl;
 }
 
 #endif

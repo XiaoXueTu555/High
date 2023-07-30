@@ -1,5 +1,9 @@
 #pragma once
 #include "High_int.h"
+
+//初始化浮点除法的计算精度
+#define PRECISION 32
+
 class High_float
 {
 private:
@@ -7,7 +11,9 @@ private:
 	class High_int integer; //整数位
 	class High_int decimals; //小数位
 	int64_t decimals_leading_zero; //前置0的数量，省内存的做法
-	int64_t precision; //除法计算的精度设置
+public:
+	//除法计算的精度设置
+	static int64_t precision;
 public:
 	High_float();
 	High_float(High_int data);

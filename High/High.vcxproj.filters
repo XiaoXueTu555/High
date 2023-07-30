@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{754a2a76-7919-4724-9a1b-9632b823348f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Public\High_int.h">
@@ -32,16 +35,19 @@
     <ClCompile Include="Private\High_int.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Private\High_float.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test1.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
     <ClCompile Include="test2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Test</Filter>
     </ClCompile>
     <ClCompile Include="test3.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\High_math.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

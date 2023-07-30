@@ -146,6 +146,7 @@
     <ClInclude Include="Public\High_math.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Private\High_math.cpp" />
     <ClCompile Include="test1.cpp" />
     <ClCompile Include="Private\High_float.cpp" />
     <ClCompile Include="Private\High_int.cpp" />

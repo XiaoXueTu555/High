@@ -1,9 +1,6 @@
 #define TEST1
 #ifdef TEST1
 
-#include<iostream>
-#include<ctime>
-#include<stdlib.h>
 #include"Public/High_io.h"
 #include"Public/High_int.h"
 #include"Public/High_float.h"
